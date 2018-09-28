@@ -1,0 +1,18 @@
+
+
+errorlog = /home/vagrant/FINAL/error_log.c
+cache_size = 300M
+cache_replacment = rlu
+timeout = 10
+
+diskname = raid1_storage
+mountpoint = /home/vagrant/FINAL/raid1f
+raid = 1
+servers = 127.0.0.1:5000, 127.0.0.1:5001
+hotswap = 127.0.0.1:5002
+
+diskname = raid5_storage
+mountpoint = /home/vagrant/FINAL/raid5f
+raid = 5
+servers = 127.0.0.1:5003, 127.0.0.1:5004, 127.0.0.1:5005
+hotswap = 127.0.0.1:5006
